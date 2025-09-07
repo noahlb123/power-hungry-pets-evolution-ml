@@ -8,8 +8,6 @@ class Deck:
         self.grave = None
         #frequency of each card number
         self.freq = {
-            10: 21}
-        self.freq = {
             0: 1,
             1: 5,
             2: 3,
