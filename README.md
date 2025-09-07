@@ -1,5 +1,5 @@
 # Evolutionary Machine Learning in Power Hungry Pets Card Game
-[Power Hungry Pets](https://www.explodingkittens.com/products/power-hungry-pets) is a simple card game created by Seiji Kanai where players choose between two cards each turn choosing between their effects, and separately their values.
+[Power Hungry Pets](https://www.explodingkittens.com/products/power-hungry-pets) is a simple card game created by Seiji Kanai where players choose between two cards each turn by comparing their effects, and separately their values.
 
 This repository implements a digital version of Power Hungry Pets, and Evolutionary Agents that play the game by evolving different priorities for each card under the selective pressures of competition with one another.
 
