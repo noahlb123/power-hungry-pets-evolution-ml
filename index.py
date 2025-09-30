@@ -173,14 +173,16 @@ class Game:
         raise BufferError('over 1000 turns')
 
 class Card:
-    def __init__(self, val, f):
+    def __init__(self, val, f, p):
         self.val = val
         self.f = f
+        self.p = p
     
 class Zero(Card):
     def __init__(self):
         f = lambda player, target, params: 'no effect'
-        Card.__init__(self, 0, f)
+        p = lambda game_state: None
+        Card.__init__(self, 0, f, p)
 
 class One(Card):
     def __init__(self):
